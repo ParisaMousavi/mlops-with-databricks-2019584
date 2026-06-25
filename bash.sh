@@ -29,3 +29,6 @@ pip install uv
 uv pip install -r pyproject.toml --all-extras
 
 uv lock
+
+git fetch upstream 02_02
+git checkout -b 02_02 upstream/branch-name
