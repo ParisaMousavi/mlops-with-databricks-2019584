@@ -27,3 +27,5 @@ python -m ipykernel install --user --name=.venvp --display-name ".venvp"
 pip install uv
 
 uv pip install -r pyproject.toml --all-extras
+
+uv lock
