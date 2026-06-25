@@ -30,5 +30,9 @@ uv pip install -r pyproject.toml --all-extras
 
 uv lock
 
+
+git remote add upstream https://github.com/LinkedInLearning/mlops-with-databricks-2019584.git
+
 git fetch upstream 02_02
-git checkout -b 02_02 upstream/branch-name
+
+git checkout -b 02_02
