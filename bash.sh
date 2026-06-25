@@ -32,3 +32,13 @@ uv lock
 
 git fetch upstream 02_02
 git checkout -b 02_02 upstream/branch-name
+
+git remote add upstream https://github.com/LinkedInLearning/mlops-with-databricks-2019584.git
+
+git fetch upstream 02_03
+
+git checkout -b 02_03 upstream/02_03
+
+
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
