@@ -130,7 +130,7 @@ resources:
 targets:
   dev:
     workspace:
-      host: "https://adb-7405613360679840.0.azuredatabricks.net"
+      host: "https://adb-7405607038969278.18.azuredatabricks.net"
       root_path: ${var.root_path}
     variables: 
       schedule_pause_status: PAUSED

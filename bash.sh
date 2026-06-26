@@ -9,6 +9,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 pip install fastapi[standard]
  
 python -m venv .venv
+
+python3 -m venv .venv
+
  
 deactivate
  
@@ -40,5 +43,5 @@ git fetch upstream 02_03
 git checkout -b 02_03 upstream/02_03
 
 
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
