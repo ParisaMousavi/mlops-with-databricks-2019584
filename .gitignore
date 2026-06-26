@@ -1,4 +1,4 @@
-venv/*
+.venv/*
 uv.lock
 
 .databricks
@@ -6,3 +6,4 @@ uv.lock
 .DS_Store
 typings/*
 notebooks/*.json
+.venv/
