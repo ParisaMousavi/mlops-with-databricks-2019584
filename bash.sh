@@ -35,6 +35,8 @@ git remote add upstream https://github.com/LinkedInLearning/mlops-with-databrick
 
 git fetch upstream 02_03
 
-git checkout -b 02_02
+git checkout -b 02_03 upstream/02_03
+
+git push origin 02_03
 
 git checkout main
